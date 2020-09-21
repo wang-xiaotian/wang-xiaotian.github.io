@@ -210,9 +210,10 @@ a:hover {
 }
 
 .tm-portfolio-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    background: transparent;
 }
 
 .tm-portfolio-name {
@@ -223,6 +224,12 @@ a:hover {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.tm-portfolio-pic {
+    width: 630px;
+    height: 220px;
+    align-items:center;
 }
 
 .tm-portfolio-description {
